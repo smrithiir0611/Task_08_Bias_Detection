@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "20251101T025528Z",
+  "model": "GPT-4",
+  "operator": "SR",
+  "prompts_file": "prompts.txt",
+  "samples_per_prompt": 3,
+  "mode": "manual_paste"
+}

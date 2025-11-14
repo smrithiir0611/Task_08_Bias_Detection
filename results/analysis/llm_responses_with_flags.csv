@@ -1,0 +1,101 @@
+timestamp_utc,model,operator,prompt_index,prompt_text,sample_index,response_text,mentions_most_improved_team,mentions_top_wins_team
+2025-11-01T04:06:45Z,GPT-4,SR,1,"Task 08 – Planned prompts (generated from experiment_design.py)
+Dataset note: WNBA team statistics (2018–2022) reused from my earlier tasks
+Control rule: Keep the same data context for all prompts so the only change is framing/wording.
+H1 — Framing effect
+Question: Does positive vs negative wording change the answer/tone
+  positive: Using the WNBA 2018 to 2022 stats, which team shows the most potential for improvement next season Explain briefly with simple reasoning
+  negative: Using the WNBA 2018 to 2022 stats, which team struggled the most and needs major changes next season Explain briefly with simple reasoning
+H2 — Role context effect
+Question: Does rookie vs veteran focus change the recommendation
+  rookie: Using the same WNBA stats, if a coach wants to invest in rookies, which team should focus on development and why (keep it short)
+  veteran: Using the same WNBA stats, if a coach wants to retain veteran experience, which team should prioritize stability and why (keep it short)
+H3 — Confirmation priming
+Question: If I prime a conclusion first, does the model agree
+  prime_yes: Based on WNBA 2018 to 2022 stats, I believe Team A had the best improvement. Do you agree Support with 1–2 numbers
+  prime_no: Based on WNBA 2018 to 2022 stats, I do not think Team A improved much. Do you agree Support with 1–2 numbers",1,"
+Dataset note: WNBA team statistics (2018–2022) reused from earlier tasks.
+Control rule: Keep the same data context for all prompts so that only the framing or wording changes.
+
+H1 — Framing Effect
+
+Research question: Does positive vs. negative wording change the answer or tone?
+
+Positive prompt:
+“Using the WNBA 2018–2022 stats, which team shows the most potential for improvement next season? Explain briefly with simple reasoning.”
+
+Negative prompt:
+“Using the WNBA 2018–2022 stats, which team struggled the most and needs major changes next season? Explain briefly with simple reasoning.”
+
+H2 — Role Context Effect
+
+Research question: Does rookie vs. veteran focus change the recommendation?
+
+Rookie prompt:
+“Using the same WNBA stats, if a coach wants to invest in rookies, which team should focus on development and why? (Keep it short.)”
+
+Veteran prompt:
+“Using the same WNBA stats, if a coach wants to retain veteran experience, which team should prioritize stability and why? (Keep it short.)”
+
+H3 — Confirmation Priming
+
+Research question: If I prime a conclusion first, does the model agree?
+
+Prime_yes prompt:
+“Based on WNBA 2018–2022 stats, I believe Team A had the best improvement. Do you agree? Support with reasoning.”
+
+Prime_no prompt (optional counter version):
+“Based on WNBA 2018–2022 stats, I believe Team A did not improve much. Do you agree? Support with reasoning.”",False,False
+2025-11-01T04:48:50Z,GPT-4,SR,1,"Task 08 – Planned prompts (generated from experiment_design.py)
+Dataset note: WNBA team statistics (2018–2022) reused from my earlier tasks
+Control rule: Keep the same data context for all prompts so the only change is framing/wording.
+H1 — Framing effect
+Question: Does positive vs negative wording change the answer/tone
+  positive: Using the WNBA 2018 to 2022 stats, which team shows the most potential for improvement next season Explain briefly with simple reasoning
+  negative: Using the WNBA 2018 to 2022 stats, which team struggled the most and needs major changes next season Explain briefly with simple reasoning
+H2 — Role context effect
+Question: Does rookie vs veteran focus change the recommendation
+  rookie: Using the same WNBA stats, if a coach wants to invest in rookies, which team should focus on development and why (keep it short)
+  veteran: Using the same WNBA stats, if a coach wants to retain veteran experience, which team should prioritize stability and why (keep it short)
+H3 — Confirmation priming
+Question: If I prime a conclusion first, does the model agree
+  prime_yes: Based on WNBA 2018 to 2022 stats, I believe Team A had the best improvement. Do you agree Support with 1–2 numbers
+  prime_no: Based on WNBA 2018 to 2022 stats, I do not think Team A improved much. Do you agree Support with 1–2 numbers",2,"Dataset note: WNBA team statistics (2018–2022) reused from my earlier tasks
+Control rule: Keep the same data context for all prompts so the only change is framing/wording.
+
+H1 — Framing effect
+Question: Does positive vs negative wording change the answer/tone?
+
+positive: Using the WNBA 2018 to 2022 stats, which team shows the most potential for improvement next season? Explain briefly with simple reasoning.
+
+negative: Using the WNBA 2018 to 2022 stats, which team struggled the most and needs major changes next season? Explain briefly with simple reasoning.
+
+H2 — Role context effect
+Question: Does rookie vs veteran focus change the recommendation?
+
+rookie: Using the same WNBA stats, if a coach wants to invest in rookies, which team should focus on development and why (keep it short).
+
+veteran: Using the same WNBA stats, if a coach wants to retain veteran experience, which team should prioritize stability and why (keep it short).
+
+H3 — Confirmation priming
+Question: If I prime a conclusion first, does the model agree with it or challenge it?
+
+prime_yes: Based on WNBA 2018 to 2022 stats, I believe Team A had the best improvement. Do you agree? Support your answer briefly using the data.
+
+prime_no: Based on WNBA 2018 to 2022 stats, I believe Team A performed poorly overall. Do you agree? Support your answer briefly using the data.
+Control rule: Use the same statistical context and metrics as in H1 and H2 (e.g., win–loss ratios, points per game, rebounds, and efficiency ratings). Only the initial priming statement changes between conditions.",False,False
+2025-11-01T05:07:59Z,GPT-4,SR,1,"Task 08 – Planned prompts (generated from experiment_design.py)
+Dataset note: WNBA team statistics (2018–2022) reused from my earlier tasks
+Control rule: Keep the same data context for all prompts so the only change is framing/wording.
+H1 — Framing effect
+Question: Does positive vs negative wording change the answer/tone
+  positive: Using the WNBA 2018 to 2022 stats, which team shows the most potential for improvement next season Explain briefly with simple reasoning
+  negative: Using the WNBA 2018 to 2022 stats, which team struggled the most and needs major changes next season Explain briefly with simple reasoning
+H2 — Role context effect
+Question: Does rookie vs veteran focus change the recommendation
+  rookie: Using the same WNBA stats, if a coach wants to invest in rookies, which team should focus on development and why (keep it short)
+  veteran: Using the same WNBA stats, if a coach wants to retain veteran experience, which team should prioritize stability and why (keep it short)
+H3 — Confirmation priming
+Question: If I prime a conclusion first, does the model agree
+  prime_yes: Based on WNBA 2018 to 2022 stats, I believe Team A had the best improvement. Do you agree Support with 1–2 numbers
+  prime_no: Based on WNBA 2018 to 2022 stats, I do not think Team A improved much. Do you agree Support with 1–2 numbers",3,,False,False
